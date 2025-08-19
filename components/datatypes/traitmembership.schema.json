@@ -27,6 +27,11 @@
           "type": "string",
           "format": "date-time",
           "description": "The timestamp until which the trait membership is valid."
+        },
+        "xdm:lastQualificationDaysAgo": {
+          "title": "Last Qualification Days Ago",
+          "type": "integer",
+          "description": "The number of days since the profile last qualified for this trait."
         }
       }
     }
